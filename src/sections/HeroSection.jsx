@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../components/Button"
 import AnimateOnView from "../components/AnimateOnView"
+import profile from "../assets/profile.jpg"
 
 const HeroSection = () => {
   return (
@@ -29,7 +30,7 @@ const HeroSection = () => {
         <div className="md:w-1/2 mb-10 flex justify-center">
           <div className="relative">
             <img
-              src="/src/assets/profile.jpg"
+              src={profile}
               alt="Uguru Michael"
               className="w-200 rounded h-200 object-cover shadow-lg m-10"
             />
